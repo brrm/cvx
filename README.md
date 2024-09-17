@@ -12,9 +12,9 @@ LAPACK linear algebra libraries.
 
 To install it do:
 
-* go get github.com/hrautila/matrix
-* go get github.com/hrautila/linalg
-* go get github.com/hrautila/cvx
+* go get github.com/brrm/cvx/matrix
+* go get github.com/brrm/cvx/linalg
+* go get github.com/brrm/cvx
 
 
 For examples see _test.go files. Additional examples and other related material 
