@@ -6,7 +6,7 @@
 
 package blas
 
-// #cgo LDFLAGS: -L/usr/lib/x86_64-linux-gnu/blas -lblas -L/usr/lib/x86_64-linux-gnu -llapack_atlas -latlas -lcblas
+// #cgo LDFLAGS: -llapack_atlas -latlas -lcblas
 // #include <stdlib.h>
 // #include "blas.h"
 import "C"

@@ -7,6 +7,7 @@
 package linalg
 
 import (
+	"fmt"
 	"math"
 	"math/cmplx"
 	"strings"
@@ -158,7 +159,7 @@ func (O *IOpt) Bool() bool {
 }
 
 func (O *IOpt) String() string {
-	return string(O.Val)
+	return fmt.Sprint(O.Val)
 }
 
 func (O *IOpt) Equal(other Option) bool {

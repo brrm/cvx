@@ -6,7 +6,7 @@
 
 package blas
 
-// #cgo LDFLAGS: -L/usr/lib/x86_64-linux-gnu/blas -lblas
+// #cgo LDFLAGS: -lblas
 // #include <stdlib.h>
 // #include "blas.h"
 import "C"

@@ -6,7 +6,7 @@
 
 package lapack
 
-// #cgo LDFLAGS: -L/usr/lib/x86_64-linux-gnu/blas -L/usr/lib/x86_64-linux-gnu/lapack -llapack -lblas
+// #cgo LDFLAGS: -llapack -lblas
 // #include <stdlib.h>
 // #include "lapack.h"
 import "C"
